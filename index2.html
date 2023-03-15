@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script src="/main.js"></script>
+</head>
+<style>
+
+  .flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+  }
+  #flex2{
+  border: 5px gold solid;
+  height: 600px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius :10px;
+  }
+  #flex2 button:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  }
+  .item{
+    border: 2px black solid;
+    font-size: 30px;
+    width: 460px;
+    height: 60px;
+    margin: 20px;
+    margin-left:45px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+<body>
+  <!-- Project -->
+  <div class="h1">
+  <div class="p1">A1Snacks</div>
+  </div>
+  <div class="flex1">
+  <div id="flex2">
+    <form action="">
+    <div style="text-align: center;color: darkviolet;font-size: 50px;font-weight: bold">
+      LOGIN
+    </div>
+    
+    <input type="text" class="item" name="name" placeholder="enter your name"> 
+    
+    <input type="text" name="mypass" class="item" placeholder="enter your password">
+    
+    <button type="submit" class="item" onclick="auth2()" style="color:grey;width:470px">submit now</button>
+    
+    <button type="reset" class="item" style="color:grey;width: 470px">reset</button>
+    </div>
+    </form>
+  </div>
+  </div>
+</body>
+</html>

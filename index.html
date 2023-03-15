@@ -1,0 +1,100 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  
+</head>
+<style>
+.flexbox{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 80vh;
+}  
+#form{
+    border: 5px gold solid;
+    height: 800px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+#form button:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  }
+#form button{
+width: 470px;
+color: grey;
+}
+.item{
+    border: 2px black solid;
+    font-size:28px;
+    width: 460px;
+    height: 60px;
+    margin: 10px;
+    margin-left:70px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+<body>
+  <!-- Project -->
+<div class="h1">
+<div class="p1">A1 Snacks</div>
+</div>
+<!--
+<div class="h2">
+<button class="btn" onclick="location.href='index3.html'">About us</button>
+<button class="btn" onclick="location.href='index4.html'">contact us</button>
+</div>-->
+<div class="flexbox">
+<div id="form">
+<form action=" ">
+<div style="text-align: center;color: darkviolet;font-size: 40px;font-weight: bold">
+  SIGN UP TO JOIN
+  </div>
+    <input type="text" class="item" id="myname" placeholder="your name">
+    <input type="number" class="item" name="myphone" placeholder="your mobile no">
+    <input type="text" class="item" name ="myemail" placeholder="your email id" >
+  <!--
+  <div>
+    <label for="gen">Gender:</label>
+    Male<input type="radio" name="mygender" id="gen">
+    Female<input type="radio" name="mygender">
+  </div>-->
+  <input type="password" class="item" name="mypassword" placeholder="enter your password" >
+  <!--
+  <select name="gen" id="car" class="item">
+    <option value="select gender">-Select-Gender-</option>
+    <option value="M">Male</option>
+    <option value="F">Female</option>
+    </select> -->
+<button type="submit" class="item" onclick="auth()">submit now</button>
+  <button type="reset" class="item">reset</button>
+  <p style="text-align: center;margin: 5px;color: darkblue;font-weight: bold">OR</p>
+  <div class="item" style="padding-top: 10px;height: 50px">
+  <a href="index2.html" style="text-decoration: none;color: grey" target="_blank">log in</a>
+  </div>
+  </form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+  font-size: 35px;
+  background-image: url("/20230310_202240.jpg");
+  background-repeat: no-repeat;
+  background-size: 140vw 120vh;
+}
+.item2 {
+display: flex;
+position: absolute;
+border:none;
+top: 10px;
+right: 20px;
+background: transparent;
+display: none;
+font-size: 80px;
+}
+body{
+background-size:100vw 114vh;
+/*
+animation-name: anime1;
+animation-duration: 1s;
+animation-iteration-count: 30;
+}
+@keyframes anime1{
+  from{
+    width: 120vw;
+  }
+  to{
+    width: 140vw;
+  }
+  */
+}
+*{
+  text-decoration: none;
+  list-style: none;
+}
+#check{
+  display: none;
+}
+nav{
+  float: right;
+  width: 77%;
+  height: 80px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+  text-align: center;
+}
+nav ul li{
+display: inline-block;
+line-height: 40px;
+margin:0px 5px;
+}
+nav ul li a{
+  color: blueviolet;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius:10px;
+}
+a.active,a:hover{
+background: rgb(200,100,255);
+transition: .5s;
+}
+.h1{
+position: absolute;
+left: 10px;
+top: 10px;
+}
+/*
+@media (max-width:1500px){
+nav ul{
+  font-size: 20px;
+}
+}*/
+#check:checked ~ ul{
+right: -20px;
+}
+@media(min-width: 900px){
+.item2{
+display: flex;
+}
+nav ul{
+display: flex;
+width: 90vw;
+height: 100vh;
+background-color: goldenrod;
+position: fixed;
+top:210px;
+border-top-left-radius: 20px;
+flex-direction:column;
+align-items: center;
+right: -110%;
+transition: .5s;
+}
+nav ul li{
+display: block;
+line-height:100px;
+margin-top: 80px;
+}
+nav ul li a{
+text-decoration: none;
+color: saddlebrown;
+padding: 8px 20px;
+font-weight: bold;
+font-size: 30px;
+border-radius: 10px;
+}
+nav ul li a.active,a:hover{
+background-color: rosybrown;
+transition: all .6s;
+}
+}
+@media(max-width: 900px){
+.h1{
+background-image: url('/20230310_183514.jpg');
+background-size: 100% 80%;
+background-repeat: no-repeat;
+display: flex;
+width:120px;
+height:110px;
+}
+.p1{
+ height: 20px;
+ width: 100%;
+ text-align: center;
+ align-self: flex-end;
+ font-size: 15px;
+}
+.item2{
+display: flex;
+font-size: 30px;
+}
+nav ul{
+display: flex;
+width: 80vw;
+height: 100vh;
+background-color: goldenrod;
+position: fixed;
+top:100px;
+border-top-left-radius: 20px;
+flex-direction:column;
+align-items: center;
+right: -110%;
+transition: .5s;
+}
+nav ul li{
+display: block;
+line-height:20px;
+margin-top: 50px;
+}
+nav ul li a{
+text-decoration: none;
+color: saddlebrown;
+padding: 8px 20px;
+font-weight: bold;
+font-size: 16px;
+border-radius: 10px;
+}
+nav ul li a.active,a:hover{
+background-color: rosybrown;
+transition: all .6s;
+}
+}
+</style>
+<nav>
+<label for="check" class="item2">
+<i class="fa fa-bars"></i>
+</label>
+<input type="checkbox" id="check" >
+  <ul>
+    <li> <a class="active" href="#">Home</a></li>
+    <li><a href="index5.html">Items</a></li>
+    <li><a href="index6.html">Place Order</a></li>
+    <li><a href="index3.html">About Us</a></li>
+    <li><a href="index7.html">Feedback</a></li>
+    <li><a href="index4.html">Contact Us</a></li>
+  </ul>
+</nav>
+<body>
+  <!-- Project -->
+  <script src="main.js"></script>
+  <div class="h1">
+  <div class="p1">A1 Snacks</div>
+</div>
+</body>
+
+</html>
