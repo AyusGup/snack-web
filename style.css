@@ -1,0 +1,112 @@
+body {
+font-size: 35px;
+background-image: url("/20230310_202240.jpg");
+background-repeat: no-repeat;
+background-size:140vw 120vh;
+}
+.btn:hover,.signup:hover,.login:hover{
+ text-decoration: underline;
+ color: blue;
+ cursor: pointer;
+}
+.btn{
+     background-color: whitesmoke;
+     font-weight: bold;
+     border: 1px solid black;
+     border-radius: 10px;
+     font-size: 25px;
+     padding: 5px;
+     margin: 5px;
+     cursor: pointer;
+}
+/*
+#form{
+font-weight: bold;
+border: 5px solid gold;
+/*
+padding-top:140px;
+padding-left: 120px;
+
+width:520px;
+height: 700px;
+margin-top: 150px;
+margin-left: 158px;
+border-radius: 12px;
+display: flex;
+flex-wrap: wrap;
+}*/
+.h1{
+background-image: url('/20230310_183514.jpg');
+background-size: 100% 80%;
+background-repeat: no-repeat;
+display: flex;
+width:220px;
+height:210px;
+}
+.p1{
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ align-self: flex-end;
+}
+.h2{
+position:absolute;
+/*
+border: 5px solid black;
+*/
+display: flex;
+justify-content: center;
+top: 20px;
+right: 20px;
+width: 296px;
+}
+/*
+.p1{
+position: absolute;
+left:25px;
+top: 160px;
+}
+/*
+#form input{
+  background-color: whitesmoke;
+  position:relative;
+  right:10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#form button{
+  position: relative;
+  color: grey;
+  right:16px;
+  font-size: 30px;
+  text-align: center;
+  width: 209px; 
+}
+#car{
+position: relative;
+font-weight: bold;
+color: grey;
+text-align: center;
+font-size: 30px;
+right:10px;
+width: 435px;
+border-radius: 10px;
+border: 1px black solid;
+}
+.login{
+position: relative;
+background-color: whitesmoke;
+border-radius: 10px;
+border: 1px solid black;
+font-size: 35px;
+width: 430px ;
+right: 10px;
+text-align: center;
+}
+#form p{
+position: relative ;
+left:190px;
+}
+*/
