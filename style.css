@@ -36,7 +36,7 @@ display: flex;
 flex-wrap: wrap;
 }*/
 .h1{
-background-image: url("/20230310_183514.jpg");
+background-image: url("../20230310_183514.jpg");
 background-size: 100% 80%;
 background-repeat: no-repeat;
 display: flex;
